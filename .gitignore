@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+
+# Virtual environment
+.venv/
+
+# Private Edge bookmarks
+data/*
+!data/.gitkeep
+
+# Generated exports
+output/*
+!output/.gitkeep
+
+# Environment variables
+.env
+.env.*
